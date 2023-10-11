@@ -1,5 +1,5 @@
 # Progetto a tema libero
-Questo progetto di sviluppo web prevede la creazione di un sito web per la gestione di contenuti. Il tipo di contenuti da gestire può essere scelto dallo studente secondo i requisiti indicati [sotto](#requisiti). Il sito sarà composto diL
+Questo progetto di sviluppo web prevede la creazione di un sito web per la gestione di contenuti. Il tipo di contenuti da gestire può essere scelto dallo studente secondo i requisiti indicati [sotto](#requisiti). Il sito sarà composto di:
 * un *frontend* con pagine HTML dinamice, è possibile inserire Javscript (no framework tipo React o Vue) ed utilizzare librerie/framework CSS pubblicamente disponibili (es. Bootstrap, Tailwind, ...)
 * un *backend* PHP (utilizzando XAMPP) per la generazione dinamica delle pagine HTML e
 * un *databse* (utilizzare MariaDB, ma definire e popolare il DB in SQL) a supporto del backend.
@@ -24,7 +24,7 @@ Il databse deve essere creato utilizzando le primitive DDL dello standard SQL. O
 ### Esempi di sito web
 
 **Commercio elettronico**
-Il sito gestisce prodotti (ad esempio abbigliamento, video in streaming, libri, ...) e utenti che possono eseguire operazioni di acquisto. Gli utenti possono creare carrelli virtuali che possono eventualmente salvre per fututri acquisti.
+Il sito gestisce prodotti (ad esempio abbigliamento, video in streaming, libri, ...) e utenti che possono eseguire operazioni di acquisto. Gli utenti possono creare carrelli virtuali che possono eventualmente salvare per fututri acquisti.
 
 **Forum tematico**
 Il sito gestisce stanze in cui utenti registrati discutono di tematiche inerenti. Alcuni utenti "amministratori" possono creare stanze virtuali e possono limitare l'accesso solo su invito.
