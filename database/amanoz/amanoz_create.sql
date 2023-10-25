@@ -24,7 +24,7 @@ CREATE TABLE ordine_prodotto(
   quantita INT NOT NULL,
   PRIMARY KEY(codice_ordine, codice_prodotto),
   FOREIGN KEY (codice_ordine) REFERENCES ordine(codice),
-  FOREIGN KEY (codice_prodotto) REFERENCES prodotto(codice)
+  FOREIGN KEY (codice_prodotto) REFERENCES articolo(codice)
 );
 
 CREATE TABLE pacco(
