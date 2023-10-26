@@ -57,7 +57,10 @@ VALUES
     (2, 1, 1, 'Spedito'),
     (3, 2, 2, 'Pronto'),
     (4, 3, 3, 'Ricevuto'),
-    (5, 3, 3, 'Spedito');
+    (5, 3, 3, 'Spedito'),
+    (6, 7, 3, 'Pronto'),
+    (7, 10, 3, 'Spedito')
+    (8, 10, 3, 'Ricevuto');
 
 INSERT INTO ordine_prodotto(codice_ordine, codice_prodotto, quantita)
 VALUES	
@@ -75,5 +78,6 @@ VALUES
 	(8, 'CF123', 1, 29.99),
 	(8, 'CF124', 1, 33.65),
 	(9, 'NK103', 1, 2159.57),
-	(9, 'SD256', 2, 48.90);
+	(9, 'SD256', 2, 48.90),
+	(10, 'SK456', 3, 3, 29.89);
 	
