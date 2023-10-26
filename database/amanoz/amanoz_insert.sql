@@ -2,6 +2,7 @@ INSERT INTO articolo (codice, nome, descrizione, prezzo, peso)
 VALUES
     ('AB001', 'Apple iPhone 18', NULL, 1199.99, 300),
     ('CF123', 'Felpa Adidas Nera', 'Felpa uomo', 29.99, 750),
+    ('CF124', 'Felpa Adidas Gialla'. 'Felpa Donna S con cappuccio', 34.99, 600),
     ('RT088', 'TV Samsung QLED 60', 'Grande!', 999.99, 14000),
     ('LG234', 'LG Monitor 24"', 'Monitor Full HD', 169.99, 3000),
     ('SK123', 'Sneakers Nike Air Max', 'Scarpe da ginnastica', 99.99, 600),
@@ -13,12 +14,14 @@ VALUES
     ('AM001', 'Amazon Echo Dot', 'Altoparlante intelligente', 39.99, 200),
     ('DL789', 'Dell XPS 15', 'Laptop potente', 1499.99, 2100),
     ('NK102', 'Nikon D850', 'Fotocamera DSLR', 2499.99, 1000),
+    ('SD256', 'MicroSD Samsung 256GB', 'SSD per macchina fotografica', 48.90, 50),
     ('SK456', 'Sneakers Puma Uomo', 'Scarpe sportive', 49.99, 600),
     ('HP345', 'HP Laptop 15.6"', 'Notebook economico', 399.99, 2200),
     ('LG567', 'LG Soundbar 2.1', 'Altoparlante TV', 199.99, 3000),
     ('GO301', 'Google Nest Mini', 'Altoparlante intelligente', 29.99, 200),
     ('HU104', 'Huawei P40 Pro', 'Smartphone Android', 699.99, 220),
-    ('BO654', 'Bose Cuffie Noise-Cancelling', 'Cuffie audio', 299.99, 300);
+    ('BO654', 'Bose Cuffie Noise-Cancelling', 'Cuffie audio', 299.99, 300),
+    ('SC767', 'Calzini Uomo XL Nike', '100% Cotone', 7.90, 90);
 
 INSERT INTO cliente (codice, email, indirizzo)
 VALUES
@@ -58,7 +61,19 @@ VALUES
 
 INSERT INTO ordine_prodotto(codice_ordine, codice_prodotto, quantita)
 VALUES	
-	(1, 'AB001', 1),
-	(2, 'CF123', 2),
-	(2, 'SK123', 1);
+	(1, 'AB001', 1, 1098.98),
+	(2, 'CF123', 2, 29.99),
+	(2, 'SK123', 1,99.99),
+	(3, 'AB001', 1, 1199.99),
+	(3, 'BO654', 1, 199.99),
+	(4, 'SK456', 2, 45.39),
+	(4, 'SC767', 5, 4.99),
+	(5, 'PS001', 1, 499.99),
+	(6, 'AM001', 1, 37.48)
+	(6, 'GO301', 1, 29.99),
+	(7, 'M1234', 1, 1099.03)
+	(8, 'CF123', 1, 29.99),
+	(8, 'CF124', 1, 33.65),
+	(9, 'NK103', 1, 2159.57),
+	(9, 'SD256', 2, 48.90);
 	
