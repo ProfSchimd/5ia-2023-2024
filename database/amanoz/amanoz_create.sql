@@ -22,6 +22,7 @@ CREATE TABLE ordine_prodotto(
   codice_ordine INT,
   codice_prodotto CHAR(5),
   quantita INT NOT NULL,
+  prezzo DECIMAL(10,2) NOT NULL,
   PRIMARY KEY(codice_ordine, codice_prodotto),
   FOREIGN KEY (codice_ordine) REFERENCES ordine(codice),
   FOREIGN KEY (codice_prodotto) REFERENCES articolo(codice)
