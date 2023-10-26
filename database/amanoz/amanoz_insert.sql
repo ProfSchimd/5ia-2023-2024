@@ -2,7 +2,7 @@ INSERT INTO articolo (codice, nome, descrizione, prezzo, peso)
 VALUES
     ('AB001', 'Apple iPhone 18', NULL, 1199.99, 300),
     ('CF123', 'Felpa Adidas Nera', 'Felpa uomo', 29.99, 750),
-    ('CF124', 'Felpa Adidas Gialla'. 'Felpa Donna S con cappuccio', 34.99, 600),
+    ('CF124', 'Felpa Adidas Gialla', 'Felpa Donna S con cappuccio', 34.99, 600),
     ('RT088', 'TV Samsung QLED 60', 'Grande!', 999.99, 14000),
     ('LG234', 'LG Monitor 24"', 'Monitor Full HD', 169.99, 3000),
     ('SK123', 'Sneakers Nike Air Max', 'Scarpe da ginnastica', 99.99, 600),
@@ -59,10 +59,10 @@ VALUES
     (4, 3, 3, 'Ricevuto'),
     (5, 3, 3, 'Spedito'),
     (6, 7, 3, 'Pronto'),
-    (7, 10, 3, 'Spedito')
+    (7, 10, 3, 'Spedito'),
     (8, 10, 3, 'Ricevuto');
 
-INSERT INTO ordine_prodotto(codice_ordine, codice_prodotto, quantita)
+INSERT INTO ordine_prodotto(codice_ordine, codice_prodotto, quantita, prezzo)
 VALUES	
 	(1, 'AB001', 1, 1098.98),
 	(2, 'CF123', 2, 29.99),
@@ -71,13 +71,13 @@ VALUES
 	(3, 'BO654', 1, 199.99),
 	(4, 'SK456', 2, 45.39),
 	(4, 'SC767', 5, 4.99),
-	(5, 'PS001', 1, 499.99),
-	(6, 'AM001', 1, 37.48)
+	(5, 'PS005', 1, 499.99),
+	(6, 'AM001', 1, 37.48),
 	(6, 'GO301', 1, 29.99),
-	(7, 'M1234', 1, 1099.03)
+	(7, 'M1234', 1, 1099.03),
 	(8, 'CF123', 1, 29.99),
 	(8, 'CF124', 1, 33.65),
-	(9, 'NK103', 1, 2159.57),
+	(9, 'NK102', 1, 2159.57),
 	(9, 'SD256', 2, 48.90),
-	(10, 'SK456', 3, 3, 29.89);
+	(10, 'SK456', 3, 29.89);
 	
